@@ -1,0 +1,40 @@
+---
+title: "Developing Data Products - Course Project"
+author: "Vhishma Pant"
+output: slidy_presentation
+---
+# Introduction
+This Shiny app presentation is in order to provide overview of my application.
+
+This project will calculate sum of all the integers upto the value provided by user.
+
+
+# Functionality
+- User provides an integer in the input field.
+- Application reads that number and calculates sum upto that number.
+- Application displays the result.
+
+
+# Calculations
+Application requires following library:
+```{r, echo=TRUE, eval=FALSE}
+library(numbers)
+```
+
+Following formula is used to calculate sum upto integer n:
+```{r, echo=TRUE, eval=FALSE}
+sum = n * (n + 1) / 2
+```
+
+# Application URL
+Application is published at the following URL:
+
+https://learncoursera.shinyapps.io/DevelopingDataProducts/
+
+Corresponding code for the same is at:
+
+https://github.com/vsmpant/DevelopingDataProducts
+
+# Thank You
+Thank You!
+
